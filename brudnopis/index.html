@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yugee" />
+    <meta name="description" content="This is my test page" />
+    <meta name="keywords" content="html, learning, programming" />
+    <link rel="icon" href="htmlx.png" type="image" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <center>
+      <div class="a">
+        <h1>&#169;test website</h1>
+      </div>
+    </center>
+    <br />
+    <p>
+      I learned hyperlinks on this video and here's
+      <a href="https://www.youtube.com/watch?v=gOioxltfh48"> link </a>
+      to it i created by href tag, and it'll open in same window
+    </p>
+    <p>
+      and heres same
+      <a href="https://www.youtube.com/watch?v=gOioxltfh48" target="_blank">
+        video
+      </a>
+      but it'll open i a new window
+    </p>
+    <div class="capybara"></div>
+    <hr />
+    <h3>here are some navigations</h3>
+    <nav id="primary navs">
+      <li>
+        <a href="#l2"> lesson 2 </a>
+      </li>
+      <li>
+        <a href="#l3"> lesson 3 </a>
+      </li>
+      <li>
+        <a href="#l4"> lesson 4(not done yet) </a>
+      </li>
+      <li>
+        <a href="#l5"> lesson 5(not done yet) </a>
+      </li>
+      <li>
+        <a href="#bottom"> goto bottom </a>
+      </li>
+    </nav>
+    <hr />
+    <section id="l2"></section>
+    <center>
+      <h1>lesson 2(monday/tuesday)</h1>
+    </center>
+    <div class="margin-t">
+      <p>Here i will make some lists</p>
+      <h3>unordered list:</h3>
+      <ul>
+        <li>some content</li>
+        <li>some content</li>
+        <li>some content</li>
+      </ul>
+      <h3>and here i put some ordered list:</h3>
+      <ol>
+        <li>something</li>
+        <li>something</li>
+        <li>something</li>
+      </ol>
+      <h3>and there's also Description list</h3>
+      <dl>
+        <dt>idk what this does</dt>
+        <dd>but i need to add also this</dd>
+      </dl>
+      <h3>
+        <strong> now time for some img's </strong>
+      </h3>
+      <img
+        src="img/Untitled.png"
+        alt="image"
+        width="100px"
+        height="50px"
+        title="some img 1"
+      />
+      <img
+        src="img/asdf.png"
+        alt="image"
+        width="100px"
+        height="50px"
+        title="some img 2"
+        loading="lazy"
+      />
+      <br />
+      <p>Lets try listed img</p>
+      <img
+        src="img/a.png"
+        alt="image"
+        width="200px"
+        title="reeeeed"
+        loading="lazy"
+      />
+    </div>
+    <br />
+    <hr />
+    <br />
+    <section id="l3">
+      <center>
+        <h1>Lesson 3(wednesday)</h1>
+      </center>
+      <p>here i put some asides:</p>
+      <aside>
+        <details>
+          <summary>
+            <mark> YouTube channel </mark>
+            <p>where i learned this from</p>
+          </summary>
+          <p>
+            <a href="https://www.youtube.com/@freecodecamp" target="_blank">
+              freeCodeCamp.org
+            </a>
+          </p>
+        </details>
+      </aside>
+    </section>
+    <section id="l4">
+      <center>
+        <h2>lesson 3(thursday)</h2>
+      </center>
+      <p>today i learn tables, ill leave an example below</p>
+      <table>
+        <caption>
+          here are tags needed to make a table(example of&lt;caption&gt;)
+        </caption>
+        <tr bgcolor="white" align="center">
+          <th>commands</th>
+          <th>wut they do</th>
+        </tr>
+        <tr bgcolor="white" align="center">
+          <td>&lt;caption&gt;</td>
+          <td>you can write caption</td>
+        </tr>
+        <tr bgcolor="white" align="center">
+          <td>&lt;tr&gt;</td>
+          <td>it adds a ....</td>
+        </tr>
+        <tr bgcolor="white" align="center">
+          <td>&lt;td&gt;</td>
+          <td>add table data</td>
+        </tr>
+        <tr bgcolor="white" align="center">
+          <td rowspan="2">&lt;td rowspan="2"&gt;</td>
+          <td>add table data</td>
+        </tr>
+        <tr bgcolor="white" align="center">
+          <td>cos</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+    <section id="l5">
+      <center>
+        <h1>Lesson 5(finish, at least i hope so)</h1>
+      </center>
+      <br />
+      <div style="margin-left: 100px">
+        <article id="CV">
+          <h3>Online CV example</h3>
+          <div style="width: 500px">
+            <form action="https://httpbin.org/get" method="get">
+              <fieldset>
+                <legend>Enter your info below</legend>
+                <p>
+                  <label for="f/name"> Name and Firstname </label>
+                  <input
+                    type="text"
+                    name="first/name"
+                    id="f/name"
+                    placeholder="Przemysław Nowak"
+                    autocomplete="on"
+                    required
+                    autofocus
+                  />
+                </p>
+                <p>
+                  <label for="Bday">Date of Birth</label>
+                  <input
+                    type="date"
+                    name="Bday"
+                    id="Bday"
+                    autocomplete="on"
+                    required
+                  />
+                </p>
+                <p>
+                  <label for="telnum">Mobile number</label>
+                  <input
+                    type="tel"
+                    name="telnum"
+                    id="telnum"
+                    placeholder="881-052-344"
+                    pattern="[1-3]{9}"
+                    autocomplete="on"
+                    required
+                  />
+                </p>
+                <p>
+                  <label for="bday2">confirm bday</label>
+                  <input
+                    type="number"
+                    name="bday2"
+                    id="bday2"
+                    autocomplete="on"
+                    value="2006"
+                    required
+                    max="2006"
+                    min="1970"
+                  />
+                </p>
+                <p>
+                  <label for="color">Favourite color(not requiered)</label>
+                  <select name="favcolor" id="color">
+                    <optgroup label="Colors">
+                      <option value="choose" selected>choose color</option>
+                      <option value="red" style="background-color: red">
+                        Red
+                      </option>
+                      <option value="green" style="background-color: green">
+                        Green
+                      </option>
+                      <option value="blue" style="background-color: blue">
+                        Blue
+                      </option>
+                      <option value="yellow" style="background-color: yellow">
+                        Yellow
+                      </option>
+                      <option value="purple" style="background-color: purple">
+                        Purple
+                      </option>
+                      <option value="orange" style="background-color: orange">
+                        Orange
+                      </option>
+                      <option
+                        value="black"
+                        style="background-color: black; color: white"
+                      >
+                        Black
+                      </option>
+                      <option value="white" style="background-color: white">
+                        White
+                      </option>
+                      <option value="pink" style="background-color: pink">
+                        Pink
+                      </option>
+                    </optgroup>
+                    <optgroup label="Other Colors">
+                      <option value="custom">Custom Color (enter below)</option>
+                    </optgroup>
+                  </select>
+                </p>
+                <p>
+                  <label for="customColor">other color(not requiered)</label>
+                  <input
+                    style="width: 26ch"
+                    type="text"
+                    id="customColor"
+                    name="cuscol"
+                    placeholder="light blue, magenta, rgb or #ffffff"
+                  />
+                </p>
+              </fieldset>
+              <br />
+              <fieldset>
+                <legend>Radio input(gender for example)</legend>
+                <input type="radio" name="gender" id="form-male" />
+                <label for="male">Male</label>
+                <br />
+                <input type="radio" name="gender" id="form-female" />
+                <label for="Female">Female</label>
+                <br />
+                <a
+                  href="https://m.media-amazon.com/images/I/518ESDBqXNL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                >
+                  <img
+                    src="img/radiobtn.png"
+                    alt="image"
+                    style="margin-left: 5px"
+                    width="13px"
+                    height="13px"
+                  />
+                </a>
+                Other
+              </fieldset>
+              <button>Ok</button>
+            </form>
+          </div>
+        </article>
+      </div>
+    </section>
+    <hr />
+    <nav>
+      <ul>
+        <li>
+          <a href="#top"> goto top </a>
+        </li>
+      </ul>
+    </nav>
+    <section id="bottom"></section>
+  </body>
+</html>

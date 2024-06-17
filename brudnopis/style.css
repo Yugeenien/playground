@@ -1,0 +1,70 @@
+.margin-t {
+  margin-left: 5%;
+}
+body {
+  color: white;
+  background-color: grey;
+}
+
+.a {
+  background-color: black;
+  width: 50%;
+  height: auto;
+}
+
+.capybara {
+  margin-left: 350px;
+  margin-right: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/photo-1557431177-36141475c676?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEwMDk2Mn0);
+  width: 300px;
+  height: 300px;
+}
+
+a {
+  color: black;
+}
+a:visited {
+  color: lightgray;
+}
+a:hover,
+a:active {
+  color: white;
+}
+mark {
+  background-color: white;
+  font-weight: bold;
+}
+table {
+  background-color: black;
+  color: black;
+  width: 50%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  border-color: black;
+  border-top: 0px;
+}
+caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-color: black;
+  padding: 8px;
+  background-color: #f2f2f2;
+  border-bottom: 0px;
+}
+td {
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-color: black;
+  padding: 8px;
+  background-color: #f2f2f2;
+}
+tr {
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-color: black;
+  padding: 8px;
+  background-color: #f2f2f2;
+}
