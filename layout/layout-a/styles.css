@@ -1,15 +1,27 @@
-* {
-    box-sizing: border-box;
-  }
-  
-
-  *,
-  *::before,
-  *::after {
-    margin: 0;
-    padding: 0;
-  }
-
-  h1{
-    font-size: 50px;
-  }
+/* here i modify the boxes*/
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  min-height: 100vh;
+}
+.box1 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+  height: 30%;
+  width: 30%;
+  border: solid 3px;
+  border-color: yellow;
+  font-size: 20px;
+}
+.item {
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  margin: 0;
+}
