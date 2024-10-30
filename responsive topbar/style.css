@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.topbar {
+  width: 100%;
+  min-height: 100px;
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: black;
+  width: 80px;
+  height: 80px;
+}
+
+#burger {
+  background-color: black;
+  height: 20px;
+  margin: 10px;
+}
+
+@media (max-width: 600px) {
+  .burger {
+    display: block;
+  }
+
+  .menu {
+    justify-content: center;
+  }
+  .logo {
+    display: block;
+  }
+
+  .top-link {
+    display: none;
+  }
+  #burger:active {
+    .top-link {
+      display: block;
+    }
+  }
+}
